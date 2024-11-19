@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 import pip
-pip.main(["install", "openpyxl"])
+pip.main(["install", "defusedxml"])
 
 st.set_page_config(page_title = "Sales Results")
 st.header("Sales 2024")
